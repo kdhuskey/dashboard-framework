@@ -13,14 +13,12 @@ function App() {
     <>
       <HeadNav/>
 
-
       <UserDashboard/>
+
 
     <Container>
       <Row className='Centered'>
       <Clocks name='Sydney' className='gy-3' xs={12} sm={6} lg={4} xl={3}/>
-      <Clocks name="Tokyo" className='gy-3' xs={12} sm={6} lg={4} xl={3}/>
-      <Clocks name="Paris" className='gy-3' xs={12} sm={6} lg={4} xl={3}/>
       </Row>
       <br></br>
       <Col className='gy-3 table' xs={12} sm={6} lg={4} xl={3}><UserCard/></Col>
